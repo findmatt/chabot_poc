@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\yi.shi.matthew.chan\\Documents\\GitHub\\chatbot\\rasa\\projects\\dev__current__all\\model_20181031-122617\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\yi.shi.matthew.chan\\Documents\\GitHub\\chatbot\\rasa\\projects\\dev__current__all\\model_20181031-122617\\intent_classifier_tensorflow_embedding.ckpt"

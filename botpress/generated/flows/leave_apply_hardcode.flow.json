@@ -1,0 +1,216 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('exit')",
+        "node": "exit.flow.json"
+      },
+      {
+        "condition": "(event.nlu.intent.confidence >= 0.8 && event.nlu.intent.name != 'leave_apply')",
+        "node": "_conversation_router.flow.json"
+      }
+    ]
+  },
+  "startNode": "getEntities",
+  "nodes": [
+    {
+      "id": "1582f3b907",
+      "name": "getEntities",
+      "onEnter": [
+        "initDates {}",
+        "getDateEntities {}",
+        "convertDateEntities {}",
+        "say #!builtin_text-hTUAJF",
+        "say #!builtin_text-oqXG~8"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherRemainingInfo"
+        }
+      ]
+    },
+    {
+      "id": "6c0110a266",
+      "name": "sap_apply_leave",
+      "next": [
+        {
+          "condition": "true",
+          "node": "RFC_success"
+        }
+      ],
+      "onEnter": [
+        "getDateTags {}",
+        "say #!builtin_text-~7OYYW"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e40548a99f",
+      "name": "gatherRemainingInfo",
+      "next": [
+        {
+          "condition": "state.begda == null",
+          "node": "setBegda"
+        },
+        {
+          "condition": "state.endda == null",
+          "node": "setEndda"
+        },
+        {
+          "condition": "true",
+          "node": "choice-confirm"
+        }
+      ],
+      "onEnter": [
+        "getDateTags {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "11e664f4fb",
+      "name": "setBegda",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherRemainingInfo"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zGjgTz"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "908222ce17",
+      "name": "setEndda",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherRemainingInfo"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IQDUev"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "96b6186ae8",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-confirm",
+      "flow": "skills/choice-a120c5.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sap_apply_leave"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "ending"
+        },
+        {
+          "caption": "User picked [change]",
+          "condition": "state['skill-choice-ret'] == \"change\"",
+          "node": "resetDate"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "667ed9c31b",
+      "name": "ending",
+      "next": [
+        {
+          "condition": "always",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vhTdSm"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2057b68314",
+      "name": "resetDate",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherRemainingInfo"
+        }
+      ],
+      "onEnter": [
+        "initDates {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0bcd2adec8",
+      "name": "RFC_fail",
+      "next": [
+        {
+          "condition": "always",
+          "node": "choice-retry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-3pcn1C"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "89e5ea8774",
+      "name": "RFC_success",
+      "next": [
+        {
+          "condition": "always",
+          "node": "ending"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ZU8PCu"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "5f08dab400",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-retry",
+      "flow": "skills/choice-a9f854.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "resetDate"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "ending"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

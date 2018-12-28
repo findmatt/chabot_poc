@@ -1,0 +1,66 @@
+[
+  {
+    "id": "builtin_carousel-dXfNXA",
+    "formData": [
+      {
+        "title": "Ongoing Leave Requests",
+        "subtitle": "{{state.uname}}",
+        "actions": [
+          {
+            "title": "run",
+            "action": "Say something",
+            "url": "https://botpress.io/docs/latest/reference/DialogStateManager.html#.getState"
+          },
+          {
+            "title": "card 2 url",
+            "action": "Open URL",
+            "url": "https://botpress.io/docs/latest/reference/DialogStateManager.html#.getState"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:40:18.969Z"
+  },
+  {
+    "id": "builtin_carousel-eatJnd",
+    "formData": [
+      {
+        "title": "Ongoing Leave Requests",
+        "subtitle": "Please choose a request to modify.",
+        "actions": [
+          {
+            "title": "From:2018/12/13 To:2018/12/14",
+            "action": "Say something"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-10-27T12:07:54.696Z"
+  },
+  {
+    "id": "builtin_carousel-8dRM0X",
+    "formData": [
+      {
+        "title": "New Leave Request",
+        "subtitle": "Dates",
+        "actions": [
+          {
+            "title": "From: {{state.begda}}",
+            "action": "Flow to ..."
+          },
+          {
+            "title": "To: {{state.endda}}",
+            "action": "Flow to ..."
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-10-31T05:01:25.354Z"
+  }
+]

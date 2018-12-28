@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/matt/rasa_nlu/projects/dev__botpress__all/model_20181021-042657/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/matt/rasa_nlu/projects/dev__botpress__all/model_20181021-042657/intent_classifier_tensorflow_embedding.ckpt"

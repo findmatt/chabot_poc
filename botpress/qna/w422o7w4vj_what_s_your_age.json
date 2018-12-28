@@ -1,0 +1,15 @@
+{
+  "id": "w422o7w4vj_what_s_your_age",
+  "data": {
+    "questions": [
+      "What's your age",
+      "How old are you"
+    ],
+    "answer": "I'm 3 months old.\n3 months.",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

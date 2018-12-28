@@ -1,0 +1,92 @@
+{
+  "version": "0.1",
+  "startNode": "entry",
+  "skillData": {
+    "contentId": "builtin_single-choice-VklNk1",
+    "keywords": {
+      "contact assistant": [
+        "contact assistant",
+        "Contact assistant"
+      ],
+      "exit": [
+        "exit",
+        "I'm done"
+      ],
+      "check leave": [
+        "check leave",
+        "Check leave"
+      ],
+      "update leave": [
+        "update leave",
+        "Update leave"
+      ]
+    },
+    "config": {}
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-VklNk1 {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "418290",
+      "onReceive": null
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "__skill-choice-parse {\"contentId\":\"builtin_single-choice-VklNk1\",\"keywords\":{\"contact assistant\":[\"contact assistant\",\"Contact assistant\"],\"exit\":[\"exit\",\"I'm done\"],\"check leave\":[\"check leave\",\"Check leave\"],\"update leave\":[\"update leave\",\"Update leave\"]},\"config\":{}}"
+      ],
+      "next": [
+        {
+          "condition": "state['skill-choice-valid'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "id": "794947",
+      "onEnter": []
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "__skill-choice-invalid-inc"
+      ],
+      "next": [
+        {
+          "condition": "state['skill-choice-invalid-count'] <= 3",
+          "node": "sorry"
+        },
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "619852",
+      "onReceive": null
+    },
+    {
+      "name": "sorry",
+      "onEnter": [
+        "say #!builtin_single-choice-VklNk1 {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "713049",
+      "onReceive": null
+    }
+  ]
+}

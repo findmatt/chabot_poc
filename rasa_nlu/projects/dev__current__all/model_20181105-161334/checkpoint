@@ -1,0 +1,2 @@
+model_checkpoint_path: "/root/rasa_nlu/projects/dev__current__all/model_20181105-161334/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/root/rasa_nlu/projects/dev__current__all/model_20181105-161334/intent_classifier_tensorflow_embedding.ckpt"

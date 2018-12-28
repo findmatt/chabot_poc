@@ -1,0 +1,351 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('exit')",
+        "node": "exit.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent >= 0.8 && event.nlu.intent != 'leave_update'",
+        "node": "_conversation_router.flow.json"
+      }
+    ]
+  },
+  "startNode": "test_start",
+  "nodes": [
+    {
+      "id": "7421738aca",
+      "name": "gatherNewDates",
+      "next": [
+        {
+          "condition": "state.begda == null",
+          "node": "setBegda"
+        },
+        {
+          "condition": "state.endda == null",
+          "node": "setEndda"
+        },
+        {
+          "condition": "true",
+          "node": "choice_confirmation"
+        }
+      ],
+      "onEnter": [
+        "getDateTags {}",
+        "say #!builtin_text-eSlpTO"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e6ed84c318",
+      "name": "setBegda",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherNewDates"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zGjgTz"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "dbd49bdcde",
+      "name": "setEndda",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherNewDates"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IQDUev"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "767d536beb",
+      "name": "ending",
+      "next": [
+        {
+          "condition": "always",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vhTdSm"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "715250d53f",
+      "name": "RFC_fail",
+      "next": [
+        {
+          "condition": "always",
+          "node": "ending"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bQhRux"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a50ecaa873",
+      "name": "RFC_success",
+      "next": [
+        {
+          "condition": "always",
+          "node": "ending"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ZU8PCu"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "566cec7ca3",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-retry",
+      "flow": "skills/choice-a9f854.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sap_mod_leave"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "ending"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "21307b76b3",
+      "name": "choose_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "verify_chosen_request"
+        }
+      ],
+      "onEnter": [
+        "displayLeaveRequests {}"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "cd0b2442a2",
+      "name": "verify_chosen_request",
+      "next": [
+        {
+          "condition": "state.verification == false",
+          "node": "invalid_leave_request"
+        },
+        {
+          "condition": "true",
+          "node": "choice-176104"
+        }
+      ],
+      "onEnter": [
+        "getDateTags {}",
+        "getUserVariable {\"name\":\"echostruct\",\"output\":\"echostruct\"}",
+        "verifyLeaveRequests {\"begda\":\"{{state.begda}}\",\"endda\":\"{{state.endda}}\",\"echostruct\":\"{{state.echostruct}}\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c5f527312f",
+      "name": "initialise",
+      "next": [
+        {
+          "condition": "state.res == null",
+          "node": "RFC_fail"
+        },
+        {
+          "condition": "state.res.ECHOSTRUCT.RET_STATUS == 'fail'",
+          "node": "RFC_fail"
+        }
+      ],
+      "onEnter": [
+        "initDates {}",
+        "getDateEntities {}",
+        "convertDateEntities {}",
+        "SAP_RFC_LEAVE {\"name\":\"{{state.uname}}\",\"action\":\"CHECK\",\"begda\":\"\",\"endda\":\"\"}",
+        "tagUser {\"tag\":\"echostruct\",\"value\":\"{{state.echostruct}}\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d783768014",
+      "name": "delete_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice_confirmation"
+        }
+      ],
+      "onEnter": [
+        "setUserVariable {\"name\":\"action\",\"value\":\"DEL\",\"expiry\":\"never\"}",
+        "tagUser {\"tag\":\"oldBegda\",\"value\":\"00000000\"}",
+        "tagUser {\"tag\":\"oldEndda\",\"value\":\"00000000\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "cc44f05f83",
+      "name": "invalid_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choose_leave_request"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-X1YUx~"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-6d10bb",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice_confirmation",
+      "flow": "skills/choice-6d10bb.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sap_mod_leave"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "ending"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "d19eeb04e6",
+      "name": "sap_mod_leave",
+      "next": [
+        {
+          "condition": "state.res == null",
+          "node": "RFC_mod_fail"
+        },
+        {
+          "condition": "state.res.ECHOSTRUCT.RET_STATUS == 'fail'",
+          "node": "RFC_mod_fail"
+        },
+        {
+          "condition": "state.res.ECHOSTRUCT.RET_STATUS == 'success'",
+          "node": "RFC_success"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-~7OYYW",
+        "getDateTags {}",
+        "getUserVariable {\"name\":\"action\",\"output\":\"action\"}",
+        "SAP_RFC_LEAVE {\"name\":\"{{state.uname}}\",\"action\":\"{{state.action}}\",\"begda\":\"{{state.begda}}\",\"endda\":\"{{state.endda}}\",\"oldEndda\":\"{{state.oldEndda}}\",\"oldBegda\":\"{{state.oldBegda}}\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e6054b53b0",
+      "name": "mod_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "gatherNewDates"
+        }
+      ],
+      "onEnter": [
+        "setUserVariable {\"name\":\"action\",\"value\":\"MOD\",\"expiry\":\"never\"}",
+        "tagUser {\"tag\":\"oldBegda\",\"value\":\"{{state.begda}}\"}",
+        "tagUser {\"tag\":\"oldEndda\",\"value\":\"{{state.oldEndda}}\"}",
+        "initDates {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d2fe41afb9",
+      "name": "RFC_mod_fail",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-retry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bQhRux"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "030308915f",
+      "name": "test_start",
+      "next": [
+        {
+          "condition": "true",
+          "node": "verify_chosen_request"
+        }
+      ],
+      "onEnter": [
+        "initDates {}",
+        "say #!builtin_text-L_dYhK"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-176104",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-176104",
+      "flow": "skills/choice-176104.flow.json",
+      "next": [
+        {
+          "caption": "User picked [delete]",
+          "condition": "state['skill-choice-ret'] == \"delete\"",
+          "node": "delete_leave_request"
+        },
+        {
+          "caption": "User picked [change]",
+          "condition": "state['skill-choice-ret'] == \"change\"",
+          "node": "mod_leave_request"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

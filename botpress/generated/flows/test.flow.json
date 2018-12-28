@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "8006350872",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-TXfdDI",
+        "initDates {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ]
+    }
+  ]
+}

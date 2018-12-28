@@ -1,0 +1,2408 @@
+
+**** Trace file opened at 2018-08-24, 12:35:51 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: c:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:35:51 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:37:20 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:41:19 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:17 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:18 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:18 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:19 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:39 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:40 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:43 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:44:51 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:01 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:02 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:04 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:14 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:24 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:24 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:27 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:46 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:45:49 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:09 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:09 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:11 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:20 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     16
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:30 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:30 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:33 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:41 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     18
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:52 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     16
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:52 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     16
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:46:54 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     16
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:03 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     20
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:14 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     18
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:16 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     18
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:25 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     18
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:25 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     22
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:38 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     20
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     24
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     20
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     20
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:47:59 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     22
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:10 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     22
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:11 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     22
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:12 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     26
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:21 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     24
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:31 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     24
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:32 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     24
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:33 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     28
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:43 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     26
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:53 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     26
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:54 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     26
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:48:55 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     30
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:05 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     28
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:14 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     28
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:16 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     28
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:17 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     32
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:27 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     30
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:36 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     30
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:38 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     30
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:39 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     34
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:48 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     32
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:49:58 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     32
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:00 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     32
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:01 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     36
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:10 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     34
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:20 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     34
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:22 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     34
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:22 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     38
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:32 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     36
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:42 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     36
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:43 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     36
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:44 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     40
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:50:53 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     38
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:03 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     38
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:06 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     42
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:07 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     38
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:15 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     40
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:25 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     40
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:27 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     44
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:29 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     40
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:36 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     42
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     42
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:49 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     46
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:50 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     42
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:51:58 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     44
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:09 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     44
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:10 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     48
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:11 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     44
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:20 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     46
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:31 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     46
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:33 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     46
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:33 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     50
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:42 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     48
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:53 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     48
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:54 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     48
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:52:55 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     52
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:03 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     50
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:15 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     50
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:16 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     50
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:16 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     54
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:26 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     52
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:37 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     56
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:38 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     52
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:39 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     52
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:47 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     54
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:53:59 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     58
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:54:00 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     54
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:54:01 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     54
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:54:10 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     56
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:54:20 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     60
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:54:21 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     56
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Fri Aug 24 12:54:23 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     56
+
+
+
+**** Trace file opened at 2018-08-24, 14:26:34 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: c:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       hostname 'vq9c1' unknown
+TIME        Fri Aug 24 14:26:33 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      D:/depot/bas/753_REL/src/base/ni/ninti.c
+LINE        898
+DETAIL      NiPGetHostByName: 'vq9c1' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'vq9c1' unknown
+TIME        Fri Aug 24 14:28:09 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxhl.cpp
+LINE        198
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-24, 14:54:51 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: c:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       program state check for conversation 00683675
+TIME        Fri Aug 24 14:54:50 2018
+RELEASE     753
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          471
+MODULE      D:/depot/bas/753_REL/src/krn/si/cpic/r3cpic.c
+LINE        6367
+DETAIL      called function STSEND in state state=BUFFER_DATA2
+COUNTER     2
+
+
+**** Trace file opened at 2018-08-24, 14:58:18 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: c:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       program state check for conversation 00892675
+TIME        Fri Aug 24 14:58:18 2018
+RELEASE     753
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          471
+MODULE      D:/depot/bas/753_REL/src/krn/si/cpic/r3cpic.c
+LINE        6367
+DETAIL      called function STSEND in state state=BUFFER_DATA2
+COUNTER     2
+
+
+**** Trace file opened at 2018-08-24, 15:02:41 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: c:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       program state check for conversation 01166456
+TIME        Fri Aug 24 15:02:41 2018
+RELEASE     753
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          471
+MODULE      D:/depot/bas/753_REL/src/krn/si/cpic/r3cpic.c
+LINE        6367
+DETAIL      called function STSEND in state state=BUFFER_DATA2
+COUNTER     2
+
+
+**** Trace file opened at 2018-08-24, 15:05:10 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: c:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       program state check for conversation 01316660
+TIME        Fri Aug 24 15:05:10 2018
+RELEASE     753
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          471
+MODULE      D:/depot/bas/753_REL/src/krn/si/cpic/r3cpic.c
+LINE        6367
+DETAIL      called function STSEND in state state=BUFFER_DATA2
+COUNTER     2
+
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       program state check for conversation 01787847
+TIME        Fri Aug 24 15:13:16 2018
+RELEASE     753
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          471
+MODULE      D:/depot/bas/753_REL/src/krn/si/cpic/r3cpic.c
+LINE        6367
+DETAIL      called function STSEND in state state=BUFFER_DATA2
+COUNTER     4
+
+
+**** Trace file opened at 2018-08-28, 15:56:58 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Tue Aug 28 15:56:58 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-28, 16:39:01 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Tue Aug 28 16:39:01 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-28, 16:41:04 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Tue Aug 28 16:41:04 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Tue Aug 28 16:42:53 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Tue Aug 28 16:44:03 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+
+**** Trace file opened at 2018-08-28, 16:49:31 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+Error during connect: connection closed without message (CM_NO_DATA_RECEIVED)
+
+
+**** Trace file opened at 2018-08-28, 17:14:04 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Tue Aug 28 17:14:04 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-29, 09:52:05 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 09:52:04 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-29, 10:00:46 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 10:00:46 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-29, 10:04:10 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 192.168.10.21, IPv6 address: 192.168.10.21
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 10:04:10 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 10:10:21 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-29, 12:48:46 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 12:48:45 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 12:50:32 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+
+**** Trace file opened at 2018-08-29, 12:52:49 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 12:52:49 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+
+**** Trace file opened at 2018-08-29, 12:56:52 Malay Peninsula Standard Time
+NW RFC Library: SDK variant, Release 750 Patch Level 1, Compiled on Apr 29 2018 17:58:54
+ CPIC library: 753.2018.03.01 version 3, NI library: 40, Kernel Release: 753 Patch Level 0
+ Current working directory: C:\Users\jesmond.lee\Downloads\demo-bot-master, Program: node
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 58 Step 9), Operating_system: Windows NT 10.0
+ Hostname: CPX-3PVZJEY6NMX, IP address: 130.12.12.48, IPv6 address: 130.12.12.48
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host CPX-3PVZJEY6NMX with Unicode
+ERROR       partner '172.16.4.4:3301' not reached
+TIME        Wed Aug 29 12:56:52 2018
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3450
+DETAIL      NiPConnect2: 172.16.4.4:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+

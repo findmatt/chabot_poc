@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "0db118390a",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-~PDxox",
+        "say #!builtin_card-pF8x6G"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ]
+    }
+  ]
+}

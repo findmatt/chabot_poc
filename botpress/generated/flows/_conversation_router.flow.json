@@ -1,0 +1,70 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "set_routed_true",
+  "nodes": [
+    {
+      "id": "06b7336040",
+      "name": "router",
+      "onEnter": [
+        "getUserVariable {\"name\":\"newIntent\",\"output\":\"newIntent\"}",
+        "setUserVariable {\"name\":\"newIntent\",\"value\":\"\",\"expiry\":\"never\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.newIntent == 'test'",
+          "node": "test.flow.json"
+        },
+        {
+          "condition": "state.newIntent == 'leave_check'",
+          "node": "leave_check.flow.json"
+        },
+        {
+          "condition": "state.newIntent == 'leave_update'",
+          "node": "leave_update.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "ending"
+        },
+        {
+          "condition": "state.newintent=='leave_apply'",
+          "node": "leave_apply_hardcode.flow.json"
+        },
+        {
+          "condition": "state.newIntent == 'cancel'",
+          "node": "cancel.flow.json"
+        }
+      ]
+    },
+    {
+      "id": "067fdb5a3d",
+      "name": "set_routed_true",
+      "next": [
+        {
+          "condition": "true",
+          "node": "router"
+        }
+      ],
+      "onEnter": [
+        "setUserVariable {\"name\":\"newIntent\",\"value\":\"{{event.nlu.intent.name}}\",\"expiry\":\"never\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "64b959ee4c",
+      "name": "ending",
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bsaTLR"
+      ],
+      "onReceive": null
+    }
+  ]
+}

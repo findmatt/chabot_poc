@@ -1,0 +1,18 @@
+{
+  "id": "3537c5rnnw_whats_your_name",
+  "data": {
+    "questions": [
+      "whats your name",
+      "how may i address you",
+      "how do i address you",
+      "how can i address you",
+      "call you what ah?"
+    ],
+    "answer": "to be decided",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": null,
+    "enabled": true
+  }
+}

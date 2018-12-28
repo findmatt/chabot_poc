@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "d421d5b244",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_carousel-dXfNXA"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-740b"
+        }
+      ]
+    },
+    {
+      "id": "cd7ed4f53f",
+      "name": "node-740b",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-K7KAS9"
+      ],
+      "onReceive": null
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('exit')",
+        "node": "exit.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent >= 0.8 && event.nlu.intent != 'leave_update'",
+        "node": "_conversation_router.flow.json"
+      }
+    ]
+  },
+  "startNode": "test_start",
+  "nodes": [
+    {
+      "id": "51e4775498",
+      "name": "gatherNewDates",
+      "next": [
+        {
+          "condition": "state.begda == null",
+          "node": "setBegda"
+        },
+        {
+          "condition": "state.endda == null",
+          "node": "setEndda"
+        },
+        {
+          "condition": "true",
+          "node": "choice_confirmation"
+        }
+      ],
+      "onEnter": [
+        "getDateTags {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2a1c6a4eef",
+      "name": "setBegda",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherNewDates"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NcoKiC"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "0673891629",
+      "name": "setEndda",
+      "next": [
+        {
+          "condition": "always",
+          "node": "gatherNewDates"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IQDUev"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "c85569565e",
+      "name": "ending",
+      "next": [
+        {
+          "condition": "always",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vhTdSm"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4d2b8f3564",
+      "name": "RFC_fail",
+      "next": [
+        {
+          "condition": "always",
+          "node": "ending"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bQhRux"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d18f8953ca",
+      "name": "RFC_success",
+      "next": [
+        {
+          "condition": "always",
+          "node": "ending"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ZU8PCu"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0a09f6a6da",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-retry",
+      "flow": "skills/choice-a9f854.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sap_mod_leave"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "ending"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "84b66b8d99",
+      "name": "choose_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "verify_chosen_request"
+        }
+      ],
+      "onEnter": [
+        "displayLeaveRequests {}"
+      ],
+      "onReceive": [
+        "getDateEntities {}",
+        "convertDateEntities {}"
+      ]
+    },
+    {
+      "id": "522dc70b2a",
+      "name": "verify_chosen_request",
+      "next": [
+        {
+          "condition": "state.verification == false",
+          "node": "invalid_leave_request"
+        },
+        {
+          "condition": "true",
+          "node": "choice-176104"
+        }
+      ],
+      "onEnter": [
+        "getDateTags {}",
+        "getUserVariable {\"name\":\"echostruct\",\"output\":\"echostruct\"}",
+        "verifyLeaveRequests {\"begda\":\"{{state.begda}}\",\"endda\":\"{{state.endda}}\",\"echostruct\":\"{{state.echostruct}}\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2876243150",
+      "name": "initialise",
+      "next": [
+        {
+          "condition": "state.res == null",
+          "node": "RFC_fail"
+        },
+        {
+          "condition": "state.res.ECHOSTRUCT.RET_STATUS == 'fail'",
+          "node": "RFC_fail"
+        }
+      ],
+      "onEnter": [
+        "initDates {}",
+        "getDateEntities {}",
+        "convertDateEntities {}",
+        "SAP_RFC_LEAVE {\"name\":\"{{state.uname}}\",\"action\":\"CHECK\",\"begda\":\"\",\"endda\":\"\"}",
+        "tagUser {\"tag\":\"echostruct\",\"value\":\"{{state.echostruct}}\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ecfa0bc4f4",
+      "name": "delete_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice_confirmation"
+        }
+      ],
+      "onEnter": [
+        "setUserVariable {\"name\":\"action\",\"value\":\"DEL\",\"expiry\":\"never\"}",
+        "tagUser {\"tag\":\"oldBegda\",\"value\":\"00000000\"}",
+        "tagUser {\"tag\":\"oldEndda\",\"value\":\"00000000\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "1c12ab64de",
+      "name": "invalid_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choose_leave_request"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-X1YUx~"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c3fcf06896",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice_confirmation",
+      "flow": "skills/choice-6d10bb.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sap_mod_leave"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "ending"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "c16b12035a",
+      "name": "sap_mod_leave",
+      "next": [
+        {
+          "condition": "true",
+          "node": "RFC_success"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-~7OYYW",
+        "getDateTags {}",
+        "getUserVariable {\"name\":\"action\",\"output\":\"action\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f337d4e093",
+      "name": "mod_leave_request",
+      "next": [
+        {
+          "condition": "true",
+          "node": "gatherNewDates"
+        }
+      ],
+      "onEnter": [
+        "setUserVariable {\"name\":\"action\",\"value\":\"MOD\",\"expiry\":\"never\"}",
+        "tagUser {\"tag\":\"oldBegda\",\"value\":\"{{state.begda}}\"}",
+        "tagUser {\"tag\":\"oldEndda\",\"value\":\"{{state.oldEndda}}\"}",
+        "initDates {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "35f6f24414",
+      "name": "RFC_mod_fail",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-retry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bQhRux"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "b5ce2231ba",
+      "name": "test_start",
+      "next": [
+        {
+          "condition": "true",
+          "node": "verify_chosen_request"
+        }
+      ],
+      "onEnter": [
+        "initDates {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "17902e9be5",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-176104",
+      "flow": "skills/choice-176104.flow.json",
+      "next": [
+        {
+          "caption": "User picked [delete]",
+          "condition": "state['skill-choice-ret'] == \"delete\"",
+          "node": "delete_leave_request"
+        },
+        {
+          "caption": "User picked [change]",
+          "condition": "state['skill-choice-ret'] == \"change\"",
+          "node": "mod_leave_request"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

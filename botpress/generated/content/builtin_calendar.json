@@ -1,0 +1,12 @@
+[
+  {
+    "id": "builtin_action-button-uXhA5j",
+    "formData": {
+      "title": "action button",
+      "action": "Open URL",
+      "url": "https://botpress.io/docs/latest/reference/DialogStateManager.html#.getState"
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:38:45.613Z"
+  }
+]

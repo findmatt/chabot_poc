@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "2ab14b125b",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-NpZex~",
+        "say #!builtin_text-ssdqjI"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ]
+    }
+  ]
+}

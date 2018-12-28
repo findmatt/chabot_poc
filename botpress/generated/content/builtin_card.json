@@ -1,0 +1,37 @@
+[
+  {
+    "id": "builtin_card-pF8x6G",
+    "formData": {
+      "title": "Suggestions",
+      "subtitle": "Here are some ways that i can help you with",
+      "actions": [
+        {
+          "title": "Apply Leave Request",
+          "action": "Say something",
+          "url": "https://botpress.io/docs/latest/reference/DialogStateManager.html#.getState"
+        },
+        {
+          "title": "Check Remaining Leave",
+          "action": "Say something"
+        },
+        {
+          "title": "Modify a Leave Request",
+          "action": "Say something"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:31:31.861Z"
+  },
+  {
+    "id": "builtin_card-NHOC__",
+    "formData": {
+      "title": "{{state.echostruct.resptext}}",
+      "actions": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:37:25.304Z"
+  }
+]

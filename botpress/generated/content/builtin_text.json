@@ -1,0 +1,683 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Hello, {{state.$r}}!",
+        "Welcome to Botpress, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "May I know your name please?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-lflYLH",
+    "formData": {
+      "text": "Greetings, how may I help you?",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:37:38.807Z"
+  },
+  {
+    "id": "builtin_text-fh0Ltl",
+    "formData": {
+      "text": "Sorry did you say something in English or French, I'm was waiting for you to say hello in one of those languages?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:40:48.262Z"
+  },
+  {
+    "id": "builtin_text-Fwf2I9",
+    "formData": {
+      "text": "What do you plan to do?",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T12:15:59.342Z"
+  },
+  {
+    "id": "builtin_text-TXfdDI",
+    "formData": {
+      "text": "test flow triggered",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T15:00:28.289Z"
+  },
+  {
+    "id": "builtin_text-~kfCS3",
+    "formData": {
+      "text": "I am a simple demo that allows you to look behind the scenes at how I was made",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T15:01:05.088Z"
+  },
+  {
+    "id": "builtin_text-lLcRSl",
+    "formData": {
+      "text": "Please let me know what I can help you with by clicking a button below:",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T15:01:41.528Z"
+  },
+  {
+    "id": "builtin_text-Y2WnFj",
+    "formData": {
+      "text": "OK great.  To keep it simple I can answer about 10 questions about the product so let's see if you ask one of those ten questions.  What is your question?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T15:08:22.290Z"
+  },
+  {
+    "id": "builtin_text-pgUR5j",
+    "formData": {
+      "text": "Did that answer your question?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T15:13:15.440Z"
+  },
+  {
+    "id": "builtin_text-sOVRUM",
+    "formData": {
+      "text": "Oh dear. I'm sorry.  You can ask \"what license does Botpress use\" if that makes you feel better?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-07T15:15:16.898Z"
+  },
+  {
+    "id": "builtin_text-CU~GvC",
+    "formData": {
+      "text": "1. What is Botpress?\n2. Why do I need a chatbot?\n3. What is a chabot?\n4. Who should use Botpress?\n5. Who are Botpress' competitors?\n6. Where is Botpress based?\n7. What technology does Botpress use?\n8. What is the Botpress pricing?\n9. What license does Botpress have?\n10. What is open source?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-09T15:37:26.463Z"
+  },
+  {
+    "id": "builtin_text-IzWaqd",
+    "formData": {
+      "text": "Oh dear, your question wasn't recognized, I'm so embarressed I can't even look at you. Let's try again.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-09T15:39:21.360Z"
+  },
+  {
+    "id": "builtin_text-l2UgMV",
+    "formData": {
+      "text": "Enter the start date with the format of DD.MM.YYYY",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T01:51:03.223Z"
+  },
+  {
+    "id": "builtin_text-nyyQnE",
+    "formData": {
+      "text": "{event.text}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T02:11:17.082Z"
+  },
+  {
+    "id": "builtin_text-w8RA4V",
+    "formData": {
+      "text": "Hi, {{state.username}}",
+      "variations": [
+        "Greetings, {{state.username}}",
+        "How are you are doing {{state.username}}",
+        "Hello {{state.username}}",
+        "Good day {{state.username}}"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T02:15:53.872Z"
+  },
+  {
+    "id": "builtin_text-p2sxDx",
+    "formData": {
+      "text": "Got it, you would like to check on your {{event.text}} leave",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T02:22:59.306Z"
+  },
+  {
+    "id": "builtin_text-aOpd1d",
+    "formData": {
+      "text": "Got it, you would like to update on your {{event.text}} leave",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T02:23:20.942Z"
+  },
+  {
+    "id": "builtin_text-k~jODF",
+    "formData": {
+      "text": "Alright, let's get you to perform {{event.text}} task",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T02:25:34.474Z"
+  },
+  {
+    "id": "builtin_text-~2pttW",
+    "formData": {
+      "text": "Getting assistance from {{event.text}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T02:46:18.541Z"
+  },
+  {
+    "id": "builtin_text-SLRwLY",
+    "formData": {
+      "text": "Enter date 20180824",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-24T10:34:33.913Z"
+  },
+  {
+    "id": "builtin_text-eWeOtQ",
+    "formData": {
+      "text": "{{event.nlu.intent.name}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T04:20:29.667Z"
+  },
+  {
+    "id": "builtin_text-plXo09",
+    "formData": {
+      "text": "pre load {{state.username}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T04:23:07.846Z"
+  },
+  {
+    "id": "builtin_text-fSC3eM",
+    "formData": {
+      "text": "{{event.text}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T04:57:14.302Z"
+  },
+  {
+    "id": "builtin_text-SscDUm",
+    "formData": {
+      "text": "Have a nice day.",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T06:46:19.453Z"
+  },
+  {
+    "id": "builtin_text-kLW1~_",
+    "formData": {
+      "text": "enter date range",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T07:09:54.935Z"
+  },
+  {
+    "id": "builtin_text-905lGv",
+    "formData": {
+      "text": "{{state.begda}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T07:10:13.336Z"
+  },
+  {
+    "id": "builtin_text-3XsORS",
+    "formData": {
+      "text": "Now, your end date of leave\nEnd date with the format of DD.MM.YYYY",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T07:50:21.082Z"
+  },
+  {
+    "id": "builtin_text-ouenU~",
+    "formData": {
+      "text": "{{state.result}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-28T08:18:53.190Z"
+  },
+  {
+    "id": "builtin_text-X1YUx~",
+    "formData": {
+      "text": "Did you specify a valid leave request that you want to change? You can click on the displayed leave requests to choose it.",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:22:23.035Z"
+  },
+  {
+    "id": "builtin_text-RJ_yUB",
+    "formData": {
+      "text": "{{state.username}}, your leave has successfully applied in the period of {{state.begda}} to {{state.endda}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:27:44.604Z"
+  },
+  {
+    "id": "builtin_text-gm9J0j",
+    "formData": {
+      "text": "{{state.username}}, the leave applied in the period of {{state.begda}} to {{state.endda} is unsuccessful.\nPlease try again or contact the administrator.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:30:24.087Z"
+  },
+  {
+    "id": "builtin_text-WAEcdB",
+    "formData": {
+      "text": "{{state.username}}, the leave application is unsuccessful.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:31:27.930Z"
+  },
+  {
+    "id": "builtin_text-oW03NL",
+    "formData": {
+      "text": "{{state.msg}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:35:38.009Z"
+  },
+  {
+    "id": "builtin_text-a7xIat",
+    "formData": {
+      "text": "{{state.result}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:37:25.271Z"
+  },
+  {
+    "id": "builtin_text-ZiXX6O",
+    "formData": {
+      "text": "DD.MM.YYYY",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:41:22.580Z"
+  },
+  {
+    "id": "builtin_text-IhBqMh",
+    "formData": {
+      "text": "{{state.msg}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:52:30.108Z"
+  },
+  {
+    "id": "builtin_text-3bbPer",
+    "formData": {
+      "text": "{{state.result}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T01:54:15.593Z"
+  },
+  {
+    "id": "builtin_text-QlTGzx",
+    "formData": {
+      "text": "Sorry, that is not what I'm expecting.",
+      "variations": [
+        "Wasn't expecting this"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T02:15:39.197Z"
+  },
+  {
+    "id": "builtin_text-rQU0Hr",
+    "formData": {
+      "text": "Feature yet to create",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T02:32:23.648Z"
+  },
+  {
+    "id": "builtin_text-gqedHg",
+    "formData": {
+      "text": "{{state.username}}, please enter the following information for us to proceed with your leave application.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T10:12:52.075Z"
+  },
+  {
+    "id": "builtin_text-q43kz~",
+    "formData": {
+      "text": "You wish to check leave",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T10:13:55.926Z"
+  },
+  {
+    "id": "builtin_text-DldqlW",
+    "formData": {
+      "text": "You wish to update leave",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-29T10:14:36.949Z"
+  },
+  {
+    "id": "builtin_text-Lfvn1j",
+    "formData": {
+      "text": "You are in the in the process of applying leave.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:26:04.013Z"
+  },
+  {
+    "id": "builtin_text-ZU8PCu",
+    "formData": {
+      "text": "Alright! I've successfully processed your leave application.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:27:45.309Z"
+  },
+  {
+    "id": "builtin_text-3pcn1C",
+    "formData": {
+      "text": "I cant seem to process your leave requests into the system.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:28:47.467Z"
+  },
+  {
+    "id": "builtin_text-K7KAS9",
+    "formData": {
+      "text": "Completed card action",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-05T04:32:07.533Z"
+  },
+  {
+    "id": "builtin_text-vqY6Hv",
+    "formData": {
+      "text": "enter date",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-20T09:56:23.283Z"
+  },
+  {
+    "id": "builtin_text-1DEFVy",
+    "formData": {
+      "text": "{{state.begda}} , {{state.endda}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-20T09:56:59.799Z"
+  },
+  {
+    "id": "builtin_text-vhTdSm",
+    "formData": {
+      "text": "Is there anything else that i can help you with?",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-21T13:30:53.610Z"
+  },
+  {
+    "id": "builtin_text-zGjgTz",
+    "formData": {
+      "text": "When will your leave start? Also, how long will it be?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-21T14:30:55.918Z"
+  },
+  {
+    "id": "builtin_text-IQDUev",
+    "formData": {
+      "text": "When will you be back?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-21T14:31:29.702Z"
+  },
+  {
+    "id": "builtin_text-eSlpTO",
+    "formData": {
+      "text": "Your new leave request will be from :{{state.begda}}    ? to:{{state.endda}}   ?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T23:47:00.871Z"
+  },
+  {
+    "id": "builtin_text-1jEZab",
+    "formData": {
+      "text": "{{state.test}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-25T14:48:18.622Z"
+  },
+  {
+    "id": "builtin_text-~7OYYW",
+    "formData": {
+      "text": "Hold on, I'm sending your request to the HR system.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-27T04:04:55.405Z"
+  },
+  {
+    "id": "builtin_text-YG6noc",
+    "formData": {
+      "text": "I'm a little confuse with your choices. I'll appreciate if you click on the quick reply buttons. Thank you!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-27T05:52:37.058Z"
+  },
+  {
+    "id": "builtin_text-fGO0pO",
+    "formData": {
+      "text": "Sure, I'm retrieving your leave information. One moment please.",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-27T11:40:44.720Z"
+  },
+  {
+    "id": "builtin_text-bQhRux",
+    "formData": {
+      "text": "I'm sorry there seems to be a technical difficulty with the system in modiying your leave requests.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-27T14:59:56.411Z"
+  },
+  {
+    "id": "builtin_text-mqSgh1",
+    "formData": {
+      "text": "The SAP system seems to be ignoring me.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-28T02:25:10.280Z"
+  },
+  {
+    "id": "builtin_text-ilGkqe",
+    "formData": {
+      "text": "{{state.res.RESPTEXT}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-28T02:28:53.842Z"
+  },
+  {
+    "id": "builtin_text-ox9RW3",
+    "formData": {
+      "text": "intent captured :{event.nlu.intent.name}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-28T03:07:29.076Z"
+  },
+  {
+    "id": "builtin_text-PdQ_rc",
+    "formData": {
+      "text": "test3",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-28T03:35:02.532Z"
+  },
+  {
+    "id": "builtin_text-L_dYhK",
+    "formData": {
+      "text": "One moment, I'll just take a quick look at your current leave applications.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-28T03:35:09.474Z"
+  },
+  {
+    "id": "builtin_text-bsaTLR",
+    "formData": {
+      "text": "Shall we continue where we left off?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-28T09:20:07.157Z"
+  },
+  {
+    "id": "builtin_text-~PDxox",
+    "formData": {
+      "text": "Nice to meet you, Venkata! How may I help you?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-30T01:56:04.212Z"
+  },
+  {
+    "id": "builtin_text-NpZex~",
+    "formData": {
+      "text": "Hmm I'm a little confused.",
+      "variations": [
+        "I'm sorry, I dont really understand, Is it regarding leave matters? ",
+        "My apologies, would you like to rephrase? I don't seem to understand you. "
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-30T02:05:54.117Z"
+  },
+  {
+    "id": "builtin_text-ssdqjI",
+    "formData": {
+      "text": "Here are the services I provide at the moment, apply leave, check leave and update leave. I'll be happy to assist you with any of them.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-30T02:11:04.888Z"
+  },
+  {
+    "id": "builtin_text-hTUAJF",
+    "formData": {
+      "text": "Sure, let me check the number of days of leaves you've got.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-11T12:50:47.172Z"
+  },
+  {
+    "id": "builtin_text-oqXG~8",
+    "formData": {
+      "text": "Hmm...you've got 5 days of leave remaining.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-11T12:56:16.877Z"
+  },
+  {
+    "id": "builtin_text-NcoKiC",
+    "formData": {
+      "text": "What're the new dates you'd like me to change to?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-11T13:05:52.385Z"
+  },
+  {
+    "id": "builtin_text-MjRnBa",
+    "formData": {
+      "text": "Hmm... You've got 2 days of leave remaining.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-12T10:23:50.165Z"
+  },
+  {
+    "id": "builtin_text-0WzI4u",
+    "formData": {
+      "text": "Are you sure you want to cancel?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-28T03:48:06.478Z"
+  }
+]

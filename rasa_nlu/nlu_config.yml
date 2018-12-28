@@ -1,0 +1,25 @@
+language: "en"
+
+# www.rasa.com/docs/nlu/choosing_pipeline/
+# www.rasa.com/docs/nlu/components/
+# www.rasa.com/docs/nlu/entities/
+#"ner_duckling"  pre-trained entity recognition
+
+pipeline: 
+  # - name: "nlp_spacy"
+  # - name: "tokenizer_spacy"
+  # - name: "intent_entity_featurizer_regex"
+  # - name: "intent_featurizer_spacy"
+  # - name: "ner_crf"
+  # - name: "ner_synonyms"
+  - name: "ner_duckling_http"
+    url: "http://127.0.0.1:8000"
+    dimensions: ["time","duration"]
+    locale: ["en_GB"]
+  - name: "tokenizer_whitespace"            #Tokenizer using whitespaces as a separator
+  - name: "intent_featurizer_count_vectors" # Creates bag-of-words representation of intent features (required by tensorflow)
+    token_pattern: '(?u)\b\w\w+\b'          # 2 alphanumeric token forms a word default:(?u)\b\w\w+\b
+    max_ngram: 2                            # max words sequence                default:1
+  - name: "intent_classifier_tensorflow_embedding" 
+    intent_tokenization_flag: false
+    intent_split_symbol: "+"

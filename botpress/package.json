@@ -1,0 +1,34 @@
+{
+  "name": "chatbot1.0",
+  "version": "1.0.0",
+  "description": "5/11/2018",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8 < 11"
+  },
+  "dependencies": {
+    "@botpress/audience": "10.50.0",
+    "@botpress/builtins": "10.50.0",
+    "@botpress/channel-web": "10.50.0",
+    "@botpress/hitl": "10.50.0",
+    "@botpress/nlu": "10.50.0",
+    "@botpress/qna": "^10.50.0",
+    "@botpress/skill-choice": "10.50.0",
+    "botpress": "10.50.0",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "node-pre-gyp": "^0.9.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "update": "^0.7.4",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EHR",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {}
+}

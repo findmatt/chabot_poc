@@ -1,0 +1,95 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('exit')",
+        "node": "exit.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent >= 0.8 && event.nlu.intent != 'leave_check'",
+        "node": "_conversation_router.flow.json"
+      }
+    ]
+  },
+  "startNode": "sap_check_leave",
+  "nodes": [
+    {
+      "id": "cddc0a9b72",
+      "name": "sap_check_leave",
+      "onEnter": [
+        "say #!builtin_text-fGO0pO",
+        "SAP_RFC_LEAVE {\"name\":\"state.uname\",\"action\":\"OVERVIEW\",\"begda\":\"\",\"endda\":\"\",\"oldEndda\":\"\",\"oldBegda\":\"\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.res == null",
+          "node": "RFC_fail"
+        },
+        {
+          "condition": "state.res.RET_STATUS == 'fail'",
+          "node": "RFC_fail"
+        },
+        {
+          "condition": "state.res.ECHOSTRUCT.RET_STATUS == 'success'",
+          "node": "RFC_success"
+        }
+      ]
+    },
+    {
+      "id": "3f299ab19e",
+      "name": "RFC_fail",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-retry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mqSgh1"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d8b1f1a18e",
+      "name": "RFC_success",
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ilGkqe"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-56d1bb",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-retry",
+      "flow": "skills/choice-56d1bb.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sap_check_leave"
+        },
+        {
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "#"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

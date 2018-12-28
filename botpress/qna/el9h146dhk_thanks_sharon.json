@@ -1,0 +1,14 @@
+{
+  "id": "el9h146dhk_thanks_sharon",
+  "data": {
+    "questions": [
+      "Thanks Sharon!"
+    ],
+    "answer": "Its a pleasure to serve you!",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

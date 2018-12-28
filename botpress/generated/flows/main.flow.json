@@ -1,0 +1,71 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.confidence <0.4",
+        "node": "_fallback.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.is('leave_check')",
+        "node": "leave_check.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.is('leave_update')",
+        "node": "leave_update_hardcode.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.is('sap')",
+        "node": "sap.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.is('exit')",
+        "node": "exit.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.name == 'test'",
+        "node": "en.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.is('leave_apply')",
+        "node": "leave_apply_hardcode.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.is('hello_en')",
+        "node": "Greeting.flow.json"
+      }
+    ]
+  },
+  "startNode": "Main_opening",
+  "nodes": [
+    {
+      "id": "07ed24c0de",
+      "name": "Main_opening",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": []
+    },
+    {
+      "id": "c7b0355f01",
+      "name": "node-7320",
+      "next": [
+        {
+          "condition": "always",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "getUserVariable {\"name\":\"test\",\"output\":\"$test\"}",
+        "say #!builtin_text-1DEFVy",
+        "say #!builtin_text-ox9RW3"
+      ],
+      "onReceive": null
+    }
+  ]
+}

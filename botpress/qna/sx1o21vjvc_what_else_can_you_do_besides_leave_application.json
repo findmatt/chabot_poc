@@ -1,0 +1,19 @@
+{
+  "id": "sx1o21vjvc_what_else_can_you_do_besides_leave_application",
+  "data": {
+    "questions": [
+      "What else can you do besides leave application.",
+      "What are the things you can do.",
+      "How can you serve me.",
+      "list of things you can do.",
+      "How are you able to help me.",
+      ""
+    ],
+    "answer": "At the moment, I'm capable of making a new leave request, checking your status of your leave quotas and modifying an existing leave request. ",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

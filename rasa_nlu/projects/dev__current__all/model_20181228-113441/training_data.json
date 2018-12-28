@@ -1,0 +1,421 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "__qna__3537c5rnnw_whats_your_name",
+        "text": "whats your name"
+      },
+      {
+        "intent": "__qna__3537c5rnnw_whats_your_name",
+        "text": "how may i address you"
+      },
+      {
+        "intent": "__qna__3537c5rnnw_whats_your_name",
+        "text": "how do i address you"
+      },
+      {
+        "intent": "__qna__3537c5rnnw_whats_your_name",
+        "text": "how can i address you"
+      },
+      {
+        "intent": "__qna__3537c5rnnw_whats_your_name",
+        "text": "call you what ah?"
+      },
+      {
+        "intent": "__qna__el9h146dhk_thanks_sharon",
+        "text": "Thanks Sharon!"
+      },
+      {
+        "intent": "__qna__sx1o21vjvc_what_else_can_you_do_besides_leave_application",
+        "text": "What else can you do besides leave application."
+      },
+      {
+        "intent": "__qna__sx1o21vjvc_what_else_can_you_do_besides_leave_application",
+        "text": "What are the things you can do."
+      },
+      {
+        "intent": "__qna__sx1o21vjvc_what_else_can_you_do_besides_leave_application",
+        "text": "How can you serve me."
+      },
+      {
+        "intent": "__qna__sx1o21vjvc_what_else_can_you_do_besides_leave_application",
+        "text": "list of things you can do."
+      },
+      {
+        "intent": "__qna__sx1o21vjvc_what_else_can_you_do_besides_leave_application",
+        "text": "How are you able to help me."
+      },
+      {
+        "intent": "__qna__w422o7w4vj_what_s_your_age",
+        "text": "What's your age"
+      },
+      {
+        "intent": "__qna__w422o7w4vj_what_s_your_age",
+        "text": "How old are you"
+      },
+      {
+        "intent": "cancel_flow",
+        "text": "end"
+      },
+      {
+        "intent": "cancel_flow",
+        "text": "lets do something else"
+      },
+      {
+        "intent": "cancel_flow",
+        "text": "forget it"
+      },
+      {
+        "intent": "cancel_flow",
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_flow",
+        "text": "stop"
+      },
+      {
+        "intent": "exit",
+        "text": "farewel"
+      },
+      {
+        "intent": "exit",
+        "text": "see you"
+      },
+      {
+        "intent": "exit",
+        "text": "till then"
+      },
+      {
+        "intent": "exit",
+        "text": "good bye"
+      },
+      {
+        "intent": "exit",
+        "text": "i'm done"
+      },
+      {
+        "intent": "exit",
+        "text": "i'm finished"
+      },
+      {
+        "intent": "exit",
+        "text": "i'm leaving"
+      },
+      {
+        "intent": "exit",
+        "text": "bye bye"
+      },
+      {
+        "intent": "exit",
+        "text": "bye"
+      },
+      {
+        "intent": "hello_en",
+        "text": " good day "
+      },
+      {
+        "intent": "hello_en",
+        "text": " pleasure to meet you "
+      },
+      {
+        "intent": "hello_en",
+        "text": " nice to meet you "
+      },
+      {
+        "intent": "hello_en",
+        "text": "yo"
+      },
+      {
+        "intent": "hello_en",
+        "text": "what's happening"
+      },
+      {
+        "intent": "hello_en",
+        "text": "gday"
+      },
+      {
+        "intent": "hello_en",
+        "text": "goodday"
+      },
+      {
+        "intent": "hello_en",
+        "text": "what's new"
+      },
+      {
+        "intent": "hello_en",
+        "text": "morning"
+      },
+      {
+        "intent": "hello_en",
+        "text": "it's a pleasure to meet you"
+      },
+      {
+        "intent": "hello_en",
+        "text": "it's a nice to meet you"
+      },
+      {
+        "intent": "hello_en",
+        "text": "good evening"
+      },
+      {
+        "intent": "hello_en",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "hello_en",
+        "text": "evening"
+      },
+      {
+        "intent": "hello_en",
+        "text": "morning"
+      },
+      {
+        "intent": "hello_en",
+        "text": "afternoon"
+      },
+      {
+        "intent": "hello_en",
+        "text": "good morning"
+      },
+      {
+        "intent": "hello_en",
+        "text": "Hey"
+      },
+      {
+        "intent": "hello_en",
+        "text": "Hey there"
+      },
+      {
+        "intent": "hello_en",
+        "text": "hi"
+      },
+      {
+        "intent": "hello_en",
+        "text": "hello"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "i'll be away from work"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "going on leave"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "new leave request"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "make a new leave request"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "leave application next week"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "i want to apply leave on 12/01/2018"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "leave application"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "apply leave"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "i want to apply leave"
+      },
+      {
+        "intent": "leave_apply",
+        "text": "i'd like to apply leave on 31 dec"
+      },
+      {
+        "intent": "leave_check",
+        "text": "examine leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "examining leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "examining of leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave examine"
+      },
+      {
+        "intent": "leave_check",
+        "text": "monitor leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "monitoring leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "monitoring of leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave monitor"
+      },
+      {
+        "intent": "leave_check",
+        "text": "review leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "reviewing leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "reviewing of leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave review"
+      },
+      {
+        "intent": "leave_check",
+        "text": "status of leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave status"
+      },
+      {
+        "intent": "leave_check",
+        "text": "remaining leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave remaining"
+      },
+      {
+        "intent": "leave_check",
+        "text": "check leave "
+      },
+      {
+        "intent": "leave_check",
+        "text": "checking leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "checking of leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave check"
+      },
+      {
+        "intent": "leave_check",
+        "text": "balance of leave"
+      },
+      {
+        "intent": "leave_check",
+        "text": "leave balance"
+      },
+      {
+        "intent": "leave_check",
+        "text": " how many days of leave left "
+      },
+      {
+        "intent": "leave_update",
+        "text": "revise leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "revise of leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "leave revision"
+      },
+      {
+        "intent": "leave_update",
+        "text": "maintain leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "maintaining leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "leave maintainence"
+      },
+      {
+        "intent": "leave_update",
+        "text": "correct leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "correction of leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "leave correction"
+      },
+      {
+        "intent": "leave_update",
+        "text": "amend leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "amendment of leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "leave amendment"
+      },
+      {
+        "intent": "leave_update",
+        "text": "change leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "changing of leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "leave change"
+      },
+      {
+        "intent": "leave_update",
+        "text": "update leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "updating leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "updating of leave"
+      },
+      {
+        "intent": "leave_update",
+        "text": "leave update"
+      },
+      {
+        "intent": "test",
+        "text": "@testing"
+      },
+      {
+        "intent": "test",
+        "text": "@testt"
+      },
+      {
+        "intent": "test",
+        "text": "@test"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
